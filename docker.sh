@@ -4,7 +4,7 @@
 
 # Remove any old versions
 sudo yum remove docker docker-common docker-selinux docker-engine
-
+sudo yum update
 # Install required packages
 sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 
